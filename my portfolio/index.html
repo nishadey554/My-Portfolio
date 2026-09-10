@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Nisha Dey - Portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <h2 class="logo">My Portfolio</h2>
+        <div class="menu-toggle" id="mobile-menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <nav class="menu">
+            <ul class="nav-list">
+                <li><a href="#home" class="nav-link">HOME</a></li>
+                <li><a href="#about" class="nav-link">ABOUT</a></li>
+                <li><a href="#project" class="nav-link">PROJECT</a></li>
+                <li><a href="#contact" class="nav-link">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- Home Section -->
+        <section id="home" class="hero_section">
+            <div class="hero_content" style="text-align: center; justify-content: center; padding-top: 60px; marging-left: 120px;">
+                <h1>I'm Nisha Dey</h1>
+                <p class="subtitle"><span id="typing-text"></span></p>
+                <a href="Nisha Cv(Web Designer).pdf" target="_blank" class="resume-btn">
+                    <i class="fa-solid fa-file-arrow-down"></i> Download Resume
+                </a>
+            </div>
+            <div class="hero_image">
+               <img src="formal.jpg" alt="Profile">
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="second_page">
+            <div class="cnt">
+                <h1>About Me</h1>
+                <p class="par">👋 Hi! I'm Nisha Dey, passout as a BCA student. I'm on an exciting journey to enhance my knowledge and develop skills. My proficiencies include working with MS Excel, MS Word, MS PowerPoint, SQL, Data Analytics, and Web Designing. I'm particularly passionate about how data can drive insights and decisions, and I'm dedicated to honing these skills further. 💡<br><br>
+                My aim is to build a career where I can keep learning and growing in a dynamic, professional environment. Outside the academic and technical arena, I enjoy engaging with new concepts and ideas, staying updated with tech developments, and contributing to collaborative projects. Feel free to connect with me! 📩</p>
+            </div>
+        </section> 
+
+        <!-- Project Section -->
+        <section id="project" class="third_page">
+            <div class="project_content">
+                 <div class="pr_content">
+                    <h1>Projects</h1>
+                    
+                    <div class="project-card">
+                        <h2>Mind Quest App</h2>
+                        <p class="mindquest">Mind Quest App is a dynamic and interactive quiz-based web application built with the aim of making learning fun, engaging, and effective. This application allows users to test their knowledge across various topics by participating in category-based multiple-choice quizzes. Built using HTML, CSS, JavaScript on the frontend, and Node.js with MySQL on the backend.</p>
+                        <img src="mindquest.png" alt="Mind Quest App Screenshot">
+                    </div>
+
+                    <div class="project-card">
+                        <h2>Blinkit Data Analysis</h2>
+                        <p class="blinkit">Blinkit Data Analysis is a project focused on cleaning, transforming, and visualizing Blinkit’s real-world data. It includes removing duplicates, handling missing values, applying formulas for sales and delivery insights, and visualizing trends like top products, pricing, and performance.</p>
+                        <img src="blinkit.png" alt="Blinkit Analysis Screenshot">
+                    </div>
+                 </div>
+            </div>
+        </section> 
+
+        <!-- Contact Section -->
+        <section id="contact" class="fourth_page">
+            <div class="contact_me">
+                <h1>Contact Me</h1>
+                <p>If you have any questions or would like to get in touch, feel free to reach out!</p>
+                <div class="contact-details">
+                    <p><i class="fa-solid fa-envelope"></i> Email: <a href="mailto:deynisha807@gmail.com">deynisha807@gmail.com</a></p>
+                    <p><i class="fa-solid fa-phone"></i> Phone: +91 9883303906</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/nishadey" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/in/Nishadey" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/in/Nishadey" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>@2026 Nisha Dey. All rights reserved.</p>
+    </footer>
+
+    <button id="back-to-top" title="Back to Top"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <script src="index.js"></script>
+</body>
+</html>
